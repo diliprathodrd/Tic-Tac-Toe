@@ -1,0 +1,75 @@
+#heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgb(253, 228, 4);
+}
+body {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.grid-row {
+  display: flex;
+  justify-content: center;
+}
+#main {
+  margin-top: 20px;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: lightseagreen;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  background-color: rgb(216, 253, 4);  
+  cursor: pointer;
+}
+.refresh{
+    display: flex;
+    justify-content: center;
+}
+.refresh button{
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    background-color: rgb(216, 253, 4);
+    border-radius: 4px;
+    border: none;
+    color: rgb(39, 1, 255);
+    font-weight: 900;
+    font-size: 20px;
+}
+#turn {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(1, 255, 242);
+}
+#winner {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(255, 230, 0);
+  margin-top: 9px;
+}
+#tie {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: chartreuse;
+  margin-top: 9px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}

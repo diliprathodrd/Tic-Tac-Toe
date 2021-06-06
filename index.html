@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="heading">Tic Tac Toe</h1>
+
+    <div id="container">
+      <div id="main">
+        <div class="grid-row">
+          <div id="r1" class="grid-item" onclick="game('1')"></div>
+          <div id="r2" class="grid-item" onclick="game('2')"></div>
+          <div id="r3" class="grid-item" onclick="game('3')"></div>
+        </div>
+        <div class="grid-row">
+          <div id="r4" class="grid-item" onclick="game('4')"></div>
+          <div id="r5" class="grid-item" onclick="game('5')"></div>
+          <div id="r6" class="grid-item" onclick="game('6')"></div>
+        </div>
+        <div class="grid-row">
+          <div id="r7" class="grid-item" onclick="game('7')"></div>
+          <div id="r8" class="grid-item" onclick="game('8')"></div>
+          <div id="r9" class="grid-item" onclick="game('9')"></div>
+        </div>
+      </div>
+      <div class="refresh">
+        <button type="submit" onClick="refreshPage()">Refresh</button>
+      </div>
+      <div id="turn">Player X Turn</div>
+      <div id="winner"></div>
+      <div id="tie"></div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Designed and Developed by &copy; <a href="https://pratidip2627.github.io/Portfolio/" target="_blank">Dilip Rathod</a></p>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
